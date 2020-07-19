@@ -9,7 +9,7 @@ command = partial(Filters.command, prefixes="!")
 @Hangi.on_message(command("ping"))
 async def ping(client: Client, message: Message):
     start = time.time()
-    reply = await message.reply_text("...")
+    reply = await message.reply_text("... GitHub Connected ...")
     delta_ping = time.time() - start
     await reply.edit_text(f"**Pong!** `{delta_ping * 1000:.3f} ms`")
 
