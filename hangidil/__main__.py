@@ -9,3 +9,4 @@ logging.basicConfig(
 
 if __name__ == "__main__":
     Hangi().run()
+

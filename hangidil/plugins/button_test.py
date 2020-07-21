@@ -10,10 +10,10 @@ command = partial(Filters.command, prefixes="!")
 async def buton(client: Client, message: Message):
 
     buttons = [
-        [InlineKeyboardButton(text="Mobil Uygulama", callback_data="mobile")],
-        [InlineKeyboardButton(text="Masaustu Uygulama", callback_data="desktop")],
-        [InlineKeyboardButton(text="Oyun", callback_data="dsk_game")],
-        [InlineKeyboardButton(text="Mobil Oyun", callback_data="mbl_game")],
+        [InlineKeyboardButton(text="Mobil Uygulama", callback_data="mobile"),
+        InlineKeyboardButton(text="Masaustu Uygulama", callback_data="desktop")],
+        [InlineKeyboardButton(text="Oyun", callback_data="dsk_game"),
+        InlineKeyboardButton(text="Mobil Oyun", callback_data="mbl_game")],
         [InlineKeyboardButton(text="Web Gelistirme", callback_data="web")],
     ]
 
@@ -24,7 +24,7 @@ async def buton(client: Client, message: Message):
     )
 
 
-def func(_, query):
+def func(_, query: CallbackQuery):
     datas = ["mobile", "desktop", "dsk_game", "mbl_game", "web"]
     return query.data in datas
 
