@@ -1,3 +1,7 @@
+Dil ve Araçlar (Ek kütüphaneler pyproject.toml dosyasında)
+* Python
+* Pyrogram-async
+
 Botun hazırlanma sürecinin ilerleyişi, ana yapısı ve ilgili konulara aşağıda yer verilmeye çalışılmıştır. Taslak olarak bir gidişat belirlemeye çalıştım. Detaylar ayrıca Telegram veya Discord grubunda konuşulabilir.
 
 Yapılacak işin amacına uygun bir şekilde sonuçlanabilmesi için ilgili konuların detaylı bir şekilde araştırılmasına ihtiyaç duyulmaktadır. Projenin zorluğunu kararlaştırılan sorular belirleyecektir. Sonradan soru eklenebilmesi vb. bütün süreç programlama öncesi yapılacak hazırlık ile netleşecektir. Aksi takdirde programlama sırasında akla yeni bir soru gelmesi bütün gidişatı etkileyebilir. Elde edilecek sonuç gerçekten her yerde önerilen bir hale de gelebilir, internetteki sırada programlama dili seçme yazısına da dönebilir. Bu da projeyi geliştiren arkadaşların elinde olan bir durumdur.
