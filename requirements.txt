@@ -1,0 +1,7 @@
+async-generator==1.10
+async-lru==1.0.1
+pyaes==1.6.1
+-e git+https://github.com/pyrogram/pyrogram.git@3502153b709695a56eae2e7517237099c6925271#egg=pyrogram
+pysocks==1.7.1
+python-decouple==3.3
+tgcrypto==1.2.1
