@@ -1,7 +1,7 @@
 .vscode/
 tests/
 *.ini
-sessions/*.session
+*.session
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
