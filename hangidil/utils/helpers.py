@@ -1,13 +1,14 @@
 from pyrogram import InlineKeyboardButton
 
 
-def slicer(button_list: list, size: int) -> list:
+def slicer(button_list: list, size: int = 2) -> list:
     return [button_list[i : i + size] for i in range(0, len(button_list), size)]
 
 
 def make_buttons(answers: dict, size: int, back: str) -> list:
+
     buttons: list = [
-        InlineKeyboardButton(text=v, callback_data=k) for k, v in answers.items()
+        InlineKeyboardButton(text=k, callback_data=v) for k, v in answers.items()
     ]
     buttons = slicer(buttons, size)
 
